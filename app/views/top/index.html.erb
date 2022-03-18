@@ -1,5 +1,16 @@
-<div style="position:absolute;left:700px;top:300px">
-  <h1>HelloRails!</h1>
-  <h2>Rails nannmo wakaran</h2>
-  <button style="width : 100px;height : 50px">ositene</button>
-</div>
+<html>
+  <head>
+    <title><%= page_title %></title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <div style="position:absolute;left:700px;top:300px">
+    <% @page_title = "Rails wakaran" %>
+    <h1>HelloRails!</h1>
+    <h2>Rails nannmo wakaran</h2>
+    <p><%= link_to "Rails wakaran", :about %>
+  </div>
+</html>

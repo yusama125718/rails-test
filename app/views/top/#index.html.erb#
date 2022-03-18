@@ -1,5 +1,0 @@
-<div style="position:absolute;left:700px;top:300px">
-  <h1>HelloRails!</h1>
-  <h2>Rails nannmo wakaran</h2>
-  <button style="width : 100px;height : 50px" onclick = click()>ositene</button>
-</div>
